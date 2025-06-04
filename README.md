@@ -38,7 +38,7 @@ The Wang-Landau algorithm is as follows:
 Because g(E) becomes very large, in practice it is preferable to work with the logarithm of the density of states, so that all possible ln g(E) will fit into double precision numbers.
 ## Structure
 
-- `Spins`: Class representing a spin with its position and value (+1 or -1).
+- 'Initialization_Lattice': In this function we initialize the lattice. The elements of the vectors stored in Lattice are the link variables. The first element of each vector is the link along the first direction, the second element is the link along the second direction and the third the link along the third direction. The NN_Map contain the positions of the near-neighbour of each site, thus the element NN_Map[i][0] is the position, in Lattice, of the near neighbour of the i-th site along the direction 0.
 - `Wang_Landau`: Main function implementing the Wang-Landau sampling.
 - `compute_total_energy`: Computes the total energy of the system.
 - `mean_energy_from_log_g`: Computes <E> from log(g(E)).
