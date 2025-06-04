@@ -3,7 +3,7 @@ Monte Carlo simulation based on Wang-Landau algorithm for 2D Ising model
 
 # Wang-Landau Algorithm for the 3D Ising gauge Model
 
-This project implements the Wang-Landau algorithm to compute the density of states and derive thermodynamic quantities of the 3D Ising gauge model (e.g. average energy, specific heat). In the Ising gauge model, differently from the usual Ising model, the variables are the links. In this simulation, I used the energy as the sum of the so called "plaquette", i.e. the smallest loop in the lattice. The plaquette is defined as the product of 4 links, that formes the sides of a square of side-lenght 1.
+This project implements the Wang-Landau algorithm to compute the density of states and derive thermodynamic quantities of the 3D Ising gauge model (e.g. average energy, specific heat). In the Ising gauge model, differently from the usual Ising model, the variables are the links. In this simulation, I used the energy as the sum of the so called "plaquette", i.e. the smallest loop in the lattice. The plaquette is defined as the product of 4 links, that form the sides of a square of side-lenght 1.
 
 ## Description
 
