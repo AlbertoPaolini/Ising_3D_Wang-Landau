@@ -57,5 +57,3 @@ Additionally, two text files are created for post-processing:
 
 - `specific_heat_data.txt`: Contains specific heat data.
 - `Variance_energy_data.txt`: Contains energy variance data.
-
-Each file includes entries for different lattice sizes (e.g., 8×8, 14×14, 20×20).
