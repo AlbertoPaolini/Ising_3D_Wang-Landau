@@ -38,6 +38,7 @@ The Wang-Landau algorithm is as follows:
 Because g(E) becomes very large, in practice it is preferable to work with the logarithm of the density of states, so that all possible ln g(E) will fit into double precision numbers.
 ## Structure
 
+- Num_simulation: Allow to perform more independent simulations.
 - 'Initialization_Lattice': In this function we initialize the lattice. The elements of the vectors stored in Lattice are the link variables. The first element of each vector is the link along the first direction, the second element is the link along the second direction and the third the link along the third direction. The NN_Map contain the positions of the near-neighbour of each site, thus the element NN_Map[i][0] is the position, in Lattice, of the near neighbour of the i-th site along the direction 0.
 - 'Initialization_Plaquette': The plaquettes are initializated in this function, in this way do not have to calculate them in the Wang-Landau process. Plaquette will contain the value of the plaquettes, meanwhile in the Lattice_Plaq the position of the plaquettes attached to each link. In this way, Lattice[i][j] is a vector that contain the position, in the vector Plaquette, of the plaquettes connected to the link in the direction j of the i-th site.
 - `Wang_Landau`: Main function implementing the Wang-Landau sampling.
